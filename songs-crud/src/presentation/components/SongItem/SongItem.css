@@ -1,0 +1,53 @@
+.song-item {
+  width: 256px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+}
+.image-container {
+  width: 256px;
+  height: 256px;
+  margin-bottom: 16px;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 1);
+
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.artist-container {
+  display: flex;
+  align-items: center;
+}
+.song-album {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.separator {
+  font-size: 4px;
+  margin: 0 6px;
+}
+.song-artist {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.btn-edit-song {
+  position: relative;
+  top: 42px;
+  right: -8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  /* z-index: 1; */
+}

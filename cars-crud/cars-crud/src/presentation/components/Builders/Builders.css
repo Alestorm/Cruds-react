@@ -1,0 +1,18 @@
+.builder-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.builder-link{
+    padding: 4px 8px;
+    text-decoration: none;
+    color: black;
+    margin: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}

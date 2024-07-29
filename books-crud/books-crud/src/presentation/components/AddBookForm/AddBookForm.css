@@ -1,0 +1,8 @@
+.btn-submit-book{
+    width: 100%;
+    background-color: #39DC84;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}

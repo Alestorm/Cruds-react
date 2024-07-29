@@ -1,0 +1,16 @@
+.newsong-form{
+    width: 450px;
+}
+.btn-submit-song{
+    background-color: #4086F4;
+    color: white;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    box-shadow: 0px 0px 10px #111;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}

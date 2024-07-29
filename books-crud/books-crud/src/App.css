@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:  Helvetica;
+  padding: 24px;
+}
+main{
+  width: 100%;
+  padding: 24px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-newbook{
+  background-color: #4086F4;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+}
+.alert-success{
+  background-color: #dcf1e4;
+  padding: 16px;
+  color: #0c622e;
+  border-radius: 12px;
+  margin: 16px 0;
+}

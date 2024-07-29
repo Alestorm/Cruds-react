@@ -1,0 +1,19 @@
+.form-group{
+    width: 100%;
+    margin: 16px 0;
+}
+.form-label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.form-control{
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #02161D;
+    border-radius: 12px;
+}
+.form-control:focus{
+    outline: none;
+    border: 1px solid #39DC84;
+}
